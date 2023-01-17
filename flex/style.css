@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    padding: 30px 135px;
+}
+
+header {
+    border: 2px solid #000;
+    width: 1170px;
+    margin-bottom: 20px;
+}
+
+.web {
+    display: flex;
+    padding: 18px 50px 18px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.web-icon {
+    display: flex;
+    height: 20px;
+    width: 20px;
+}
+
+.web-icon i {
+    margin-right: 15px;
+}
+
+.web h3 {
+    font-size: 30px;
+}
+
+.web span {
+    color: red;
+}
+
+.menu-icon {
+    display: flex;
+    height: 14px;
+    width: 14px;
+}
+
+.menu-icon i {
+    margin-right: 18px;
+}
+
+.nav-menu {
+    border: 2px solid #000;
+    width: 1170px;
+    margin-bottom: 20px;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 29px 328px;
+}
+
+.nav-menu li {
+    margin-right: 15px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.image {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.image1 {
+    background-image: url(./hot-post-1\ 1.png);
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    align-items: flex-end;
+    padding: 30px;
+    height: 500px;
+    width: 750px;
+    margin-right: 20px;
+    
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+}
+.image2 {
+    background-image: url(./hot-post-3\ 1.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+  
+    padding: 60px 30px;
+  
+    width: 398px;
+    margin-bottom: 20px;
+}
+
+.image3 {
+    background-image: url(./hot-post-2\ 1.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+   
+    padding: 60px 30px;
+    height: 240px;
+    width: 398px;
+}
+
+
+.image h3 {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(237, 67, 96, 1);
+}
+
+.image :nth-child(2) {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.image :nth-child(3) {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+
+.image-text {
+    display: flex;
+    align-items: center;
+}
+
+.image-text .point {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.image-text :last-child {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+.image2 {
+    background-image: url(./hot-post-3\ 1.png);
+}
+
+.container {
+    width: 1170px;
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    background-color: #1B1C1E;
+}
+
+.callie h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.callie span {
+    color: rgba(237, 67, 96, 1);
+}
+
+.callie p {
+    color: rgba(151, 152, 155, 1);
+    margin-bottom: 20px;
+}
+
+.callie-socials {
+    color: white;
+}
+
+
+.categories {
+    width: 200px;
+    height: 200px;
+}
+
+.categories h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.categories p {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 5px;
+}
+
+.categories span {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.tags-button {
+    width: 200px;
+    height: 200px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.tags-button button {
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    color: rgba(151, 152, 155, 1);
+    background-color: #323335;
+}
+
+
+.about h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.about p {
+    color: rgba(151, 152, 155, 1);
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.about input {
+    height: 34px;
+width: 256px;
+border-radius: 3px;
+padding: 8px;
+margin-bottom: 20px;
+}
+
+.about .btn {
+    display: block;
+    padding: 8px;
+    background-color: rgba(237, 67, 96, 1);
+    color: white;
+    border-radius: 3px;
+}
